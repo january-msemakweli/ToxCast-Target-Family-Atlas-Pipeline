@@ -5,7 +5,7 @@ families: which families retain selective chemical activity after actives at or
 above the chemical cytotoxicity lower bound are removed, and how chemical
 multi-family promiscuity changes under that filter.
 
-Archive: DOI pending Zenodo mint (this README is updated after deposit).
+Archive: https://doi.org/10.5281/zenodo.21855657
 
 Data source (not redistributed here):
 
