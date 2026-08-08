@@ -1,0 +1,2 @@
+n_chemicals_tested,n_chemicals_with_active,n_chemicals_with_selective,median_biofamilies_active,median_biofamilies_selective,median_family_loss,mean_biofamilies_active,mean_biofamilies_selective,pct_chemicals_losing_ge50pct_families
+9800,8378,7998,4.0,3.0,0.0,5.978616652729662,3.9053876478318004,23.653088042049937

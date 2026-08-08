@@ -1,0 +1,3 @@
+format_class,n_endpoints,n_active,pct_of_library_actives,n_selective_1x,pct_selective_of_format_actives_1x,n_selective_3x,pct_selective_of_format_actives_3x,n_selective_10x,pct_selective_of_format_actives_10x
+cell_based,1115,303307,89.56885095827305,87375,28.807445921129418,60973,20.102734193408,49171,16.21162716323725
+cell_free_biochemical,532,35323,10.43114904172696,21332,60.39124649661694,16563,46.8901282450528,13935,39.45021657277128

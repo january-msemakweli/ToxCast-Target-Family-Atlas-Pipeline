@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.aux
+*.log
+*.out
+*.spl
+*-eps-converted-to.pdf
+.Rhistory
+.RData
+.git/zenodo_deposit.zip
+_zenodo_publish.py

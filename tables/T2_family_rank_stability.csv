@@ -1,0 +1,2 @@
+n_biological_families,spearman_family_ranks,spearman_pvalue,jaccard_top10,jaccard_top20
+49,0.9765294160371822,5.4263077194292516e-33,0.8181818181818182,0.9047619047619048

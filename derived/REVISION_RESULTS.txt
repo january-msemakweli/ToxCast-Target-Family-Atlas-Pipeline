@@ -1,0 +1,27 @@
+Revision analyses
+Active curves: 338,630
+Actives without severe mc6 flags: 174,392 (51.5%)
+
+Selectivity margins (% of all actives):
+  1x: 108,707 (32.1%)
+  3x: 77,536 (22.9%)
+  10x: 63,106 (18.6%)
+
+Format stratification (actives / 1x selective / % selective):
+  cell_based: 303,307 / 87,375 / 28.8%
+  cell_free_biochemical: 35,323 / 21,332 / 60.4%
+
+Focus family % selective at 1x / 3x / 10x:
+  cell cycle: 15.4% / 10.1% / 8.2%
+  nuclear receptor: 42.9% / 33.5% / 27.9%
+  cyp: 58.5% / 47.8% / 42.1%
+  neurodevelopment: 68.8% / 51.0% / 37.5%
+  steroid hormone: 67.9% / 53.0% / 41.2%
+  apoptosis: 5.2% / 2.9% / 1.0%
+  cytokine: 29.0% / 15.5% / 12.6%
+  gpcr: 39.9% / 21.9% / 15.3%
+  kinase: 39.5% / 27.4% / 22.1%
+  protease: 35.5% / 19.2% / 15.3%
+
+No-severe subset, library % selective at 1x:
+  59,569 / 174,392 = 34.2%

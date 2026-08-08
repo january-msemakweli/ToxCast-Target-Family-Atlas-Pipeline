@@ -1,0 +1,39 @@
+ToxCast target-family atlas with cytotoxicity filtering (invitrodb v4.3)
+Curve rows: 3,517,902
+Active curves (hitc>=0.9): 338,630
+Selective (AC50 < cytotox lower bound): 108,707 (32.1%)
+Cytotox-linked or unbound: 229,923 (67.9%)
+Biological families: 49
+Biological families with >=50 actives: 44
+Median % selective among those families: 29.8%
+Families (>=50 actives) with >=50% selective: 6
+
+Chemical promiscuity (biological families):
+  chemicals with >=1 active: 8,378
+  median families active -> selective: 4 -> 3
+  median families lost: 0
+  % chemicals losing >=50% of active families: 23.7%
+
+Family rank stability (biological families):
+  Spearman active vs selective ranks: 0.977
+  Jaccard top10/top20: 0.818/0.905
+
+Least selective families (>=100 actives):
+  apoptosis: 612 actives, 5.2% selective
+  growth factor receptor: 1,320 actives, 8.7% selective
+  dehalogenase: 134 actives, 10.4% selective
+  microrna: 191 actives, 12.0% selective
+  ion channel (panel 1): 14,216 actives, 13.7% selective
+  cell cycle: 93,307 actives, 15.4% selective
+  catalase: 227 actives, 16.7% selective
+  mutagenicity response: 341 actives, 17.9% selective
+
+Most selective families (>=100 actives):
+  neurodevelopment: 5,427 actives, 68.8% selective
+  steroid hormone: 1,958 actives, 67.9% selective
+  transcription factor: 625 actives, 66.7% selective
+  neuroactivity: 2,095 actives, 60.5% selective
+  cyp: 28,745 actives, 58.5% selective
+  metabolite: 564 actives, 56.7% selective
+  esterase: 3,148 actives, 47.1% selective
+  oxidoreductase: 2,072 actives, 47.1% selective

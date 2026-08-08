@@ -1,0 +1,29 @@
+{
+  "title": "ToxCast target-family bioactivity atlas pipeline (invitrodb v4.3)",
+  "description": "Analysis pipeline and aggregate outputs for a cytotoxicity-filtered atlas of ToxCast intended target families in invitrodb v4.3. Quantifies selective versus cytotoxicity-linked actives by family, chemical multi-family promiscuity before and after filtering, and sensitivity to potency margins, assay format, and severe mc6 flags. Requires the public EPA ToxCast invitrodb v4.3 extracts (not redistributed).",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "ToxCast",
+    "invitrodb",
+    "target family",
+    "cytotoxicity",
+    "selective activity",
+    "chemical promiscuity",
+    "high-throughput screening"
+  ],
+  "creators": [
+    {
+      "name": "Pipeline contributors"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.23645/epacomptox.6062623.v14",
+      "relation": "requires",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}

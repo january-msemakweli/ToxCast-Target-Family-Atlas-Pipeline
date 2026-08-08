@@ -1,0 +1,4 @@
+rule,margin_label,n_selective,pct_of_actives,n_selective_no_severe,pct_of_no_severe_actives
+AC50 < cytotox_lower_bound / 1,1x,108707,32.101999232200335,59569,34.158103582733155
+AC50 < cytotox_lower_bound / 3,3x,77536,22.89696719132977,39894,22.87604936006239
+AC50 < cytotox_lower_bound / 10,10x,63106,18.63567905974072,30487,17.48187990274783

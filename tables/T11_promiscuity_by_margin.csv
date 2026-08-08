@@ -1,0 +1,4 @@
+margin,n_chemicals_with_active,median_biofamilies_selective,median_family_loss,pct_chemicals_losing_ge50pct_families
+1x,8371,3.0,0.0,23.653088042049934
+3x,8371,2.0,0.0,32.02723688926054
+10x,8371,2.0,0.0,34.54784374626687

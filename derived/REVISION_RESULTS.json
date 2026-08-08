@@ -1,0 +1,32 @@
+{
+  "n_active": 338630,
+  "n_active_no_severe": 174392,
+  "pct_actives_without_severe_flag": 51.499276496471076,
+  "margin_counts": {
+    "1x": 108707,
+    "3x": 77536,
+    "10x": 63106
+  },
+  "margin_pct_of_actives": {
+    "1x": 32.101999232200335,
+    "3x": 22.89696719132977,
+    "10x": 18.63567905974072
+  },
+  "margin_counts_no_severe": {
+    "1x": 59569,
+    "3x": 39894,
+    "10x": 30487
+  },
+  "format_active": {
+    "cell_based": 303307,
+    "cell_free_biochemical": 35323
+  },
+  "format_selective_1x": {
+    "cell_based": 87375,
+    "cell_free_biochemical": 21332
+  },
+  "endpoint_format_inventory": {
+    "cell_based": 1115,
+    "cell_free_biochemical": 532
+  }
+}
