@@ -2,7 +2,7 @@
 
 Full research article package for invitrodb v4.3. The study asks what the published chemical-level cytotoxicity lower bound actually does when applied uniformly across a release: how often the bound is an estimate rather than a default ceiling, how often the comparison is answerable at the concentrations screened, and how much of a chemical's apparent multi-family breadth survives the filter once assay coverage is accounted for.
 
-Public pipeline archive: https://doi.org/10.5281/zenodo.21855657
+Public pipeline archive: https://doi.org/10.5281/zenodo.22100042 (all versions: https://doi.org/10.5281/zenodo.21855656)
 
 ## Findings
 
