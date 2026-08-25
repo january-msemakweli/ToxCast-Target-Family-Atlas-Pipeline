@@ -1,0 +1,34 @@
+Bound provenance and testability analyses (invitrodb v4.3)
+
+Chemicals in cytotox table: 10,487
+  with default 1000 uM lower bound: 7,593 (72.4%)
+  with no active burst assay (nhit=0): 6,203
+
+Active curves from estimated-bound chemicals: 286,804
+Active curves from default-bound chemicals:   51,826 (15.3% of actives)
+
+Cytotoxicity-separated fraction by bound provenance:
+  1x: estimated 19.8%  default 99.9%  pooled 32.1%
+  3x: estimated 9.0%  default 99.9%  pooled 22.9%
+  10x: estimated 4.4%  default 97.2%  pooled 18.6%
+
+Testability of the comparison:
+  actives with tested-range info: 338,630
+  bound above max tested conc: 53,907 (15.9%)
+    of which estimated-bound: 2,130
+  1x window below min tested conc: 1,883 (0.6%)
+  3x window below min tested conc: 6,257 (1.8%)
+  10x window below min tested conc: 30,192 (8.9%)
+
+Coverage-normalised promiscuity (estimated-bound chemicals):
+  n chemicals with >=1 active: 2,894
+  median biological families tested: 15
+  median families active -> separated: 8 -> 4
+  median fraction of tested families active: 0.533
+  median fraction of tested families separated: 0.214
+  % losing >=half of active families: 68.3%
+
+Same, default-bound chemicals (for contrast):
+  n chemicals with >=1 active: 5,477
+  median fraction of tested families active: 0.200
+  median fraction of tested families separated: 0.200

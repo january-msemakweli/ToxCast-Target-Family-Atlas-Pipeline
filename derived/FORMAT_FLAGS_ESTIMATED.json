@@ -1,0 +1,53 @@
+{
+  "format": [
+    {
+      "format_class": "cell_based",
+      "n_active": 262994,
+      "n_separated_1x": 47088,
+      "pct_separated_1x": 17.904590979261883,
+      "n_separated_3x": 20700,
+      "pct_separated_3x": 7.870901997764207,
+      "n_separated_10x": 10279,
+      "pct_separated_10x": 3.908454185266584
+    },
+    {
+      "format_class": "cell_free_biochemical",
+      "n_active": 23810,
+      "n_separated_1x": 9819,
+      "pct_separated_1x": 41.23897522049559,
+      "n_separated_3x": 5051,
+      "pct_separated_3x": 21.21377572448551,
+      "n_separated_10x": 2474,
+      "pct_separated_10x": 10.390592188156237
+    }
+  ],
+  "flags": [
+    {
+      "margin": "1x",
+      "n_active_all": 286804,
+      "n_separated_all": 56907,
+      "pct_separated_all": 19.84177347596268,
+      "n_active_no_severe": 150556,
+      "n_separated_no_severe": 35746,
+      "pct_separated_no_severe": 23.742660538271473
+    },
+    {
+      "margin": "3x",
+      "n_active_all": 286804,
+      "n_separated_all": 25751,
+      "pct_separated_all": 8.978605598248281,
+      "n_active_no_severe": 150556,
+      "n_separated_no_severe": 16080,
+      "pct_separated_no_severe": 10.68041127553867
+    },
+    {
+      "margin": "10x",
+      "n_active_all": 286804,
+      "n_separated_all": 12753,
+      "pct_separated_all": 4.4465907030585345,
+      "n_active_no_severe": 150556,
+      "n_separated_no_severe": 6986,
+      "pct_separated_no_severe": 4.640133903663753
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+quantity,count
+actives with finite conc_min and conc_max,338630
+actives whose cytotox bound exceeds max tested conc,53907
+"same, estimated-bound chemicals only",2130
+actives whose 1x window falls below min tested conc,1883
+actives whose 3x window falls below min tested conc,6257
+actives whose 10x window falls below min tested conc,30192

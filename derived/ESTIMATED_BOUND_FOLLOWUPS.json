@@ -1,0 +1,141 @@
+{
+  "rank_stability": {
+    "n_families": 48,
+    "spearman_rho": 0.9699831732074038,
+    "spearman_p": 6.806091045093391e-30,
+    "jaccard_top10": 0.6666666666666666,
+    "jaccard_top20": 0.8181818181818182
+  },
+  "label_shift": [
+    {
+      "family": "cell cycle",
+      "n_chemicals_active": 2894,
+      "n_chemicals_separated_1x": 1521,
+      "jaccard_1x": 0.5255701451278507,
+      "frac_retained_1x": 0.5255701451278507,
+      "n_chemicals_separated_3x": 775,
+      "jaccard_3x": 0.2677954388389772,
+      "frac_retained_3x": 0.2677954388389772,
+      "n_chemicals_separated_10x": 432,
+      "jaccard_10x": 0.1492743607463718,
+      "frac_retained_10x": 0.1492743607463718
+    },
+    {
+      "family": "nuclear receptor",
+      "n_chemicals_active": 2713,
+      "n_chemicals_separated_1x": 1710,
+      "jaccard_1x": 0.6302985624769628,
+      "frac_retained_1x": 0.6302985624769628,
+      "n_chemicals_separated_3x": 1135,
+      "jaccard_3x": 0.4183560633984519,
+      "frac_retained_3x": 0.4183560633984519,
+      "n_chemicals_separated_10x": 698,
+      "jaccard_10x": 0.2572797640987836,
+      "frac_retained_10x": 0.2572797640987836
+    },
+    {
+      "family": "cyp",
+      "n_chemicals_active": 2609,
+      "n_chemicals_separated_1x": 1533,
+      "jaccard_1x": 0.5875814488309697,
+      "frac_retained_1x": 0.5875814488309697,
+      "n_chemicals_separated_3x": 1015,
+      "jaccard_3x": 0.38903794557301646,
+      "frac_retained_3x": 0.38903794557301646,
+      "n_chemicals_separated_10x": 579,
+      "jaccard_10x": 0.22192410885396704,
+      "frac_retained_10x": 0.22192410885396704
+    },
+    {
+      "family": "cytokine",
+      "n_chemicals_active": 792,
+      "n_chemicals_separated_1x": 633,
+      "jaccard_1x": 0.7992424242424242,
+      "frac_retained_1x": 0.7992424242424242,
+      "n_chemicals_separated_3x": 374,
+      "jaccard_3x": 0.4722222222222222,
+      "frac_retained_3x": 0.4722222222222222,
+      "n_chemicals_separated_10x": 275,
+      "jaccard_10x": 0.3472222222222222,
+      "frac_retained_10x": 0.3472222222222222
+    },
+    {
+      "family": "gpcr",
+      "n_chemicals_active": 1206,
+      "n_chemicals_separated_1x": 565,
+      "jaccard_1x": 0.4684908789386401,
+      "frac_retained_1x": 0.4684908789386401,
+      "n_chemicals_separated_3x": 319,
+      "jaccard_3x": 0.2645107794361526,
+      "frac_retained_3x": 0.2645107794361526,
+      "n_chemicals_separated_10x": 188,
+      "jaccard_10x": 0.1558872305140962,
+      "frac_retained_10x": 0.1558872305140962
+    },
+    {
+      "family": "kinase",
+      "n_chemicals_active": 533,
+      "n_chemicals_separated_1x": 215,
+      "jaccard_1x": 0.40337711069418386,
+      "frac_retained_1x": 0.40337711069418386,
+      "n_chemicals_separated_3x": 117,
+      "jaccard_3x": 0.21951219512195122,
+      "frac_retained_3x": 0.21951219512195122,
+      "n_chemicals_separated_10x": 77,
+      "jaccard_10x": 0.14446529080675422,
+      "frac_retained_10x": 0.14446529080675422
+    },
+    {
+      "family": "protease",
+      "n_chemicals_active": 743,
+      "n_chemicals_separated_1x": 440,
+      "jaccard_1x": 0.5921938088829072,
+      "frac_retained_1x": 0.5921938088829072,
+      "n_chemicals_separated_3x": 206,
+      "jaccard_3x": 0.2772543741588156,
+      "frac_retained_3x": 0.2772543741588156,
+      "n_chemicals_separated_10x": 115,
+      "jaccard_10x": 0.15477792732166892,
+      "frac_retained_10x": 0.15477792732166892
+    },
+    {
+      "family": "neurodevelopment",
+      "n_chemicals_active": 196,
+      "n_chemicals_separated_1x": 162,
+      "jaccard_1x": 0.826530612244898,
+      "frac_retained_1x": 0.826530612244898,
+      "n_chemicals_separated_3x": 132,
+      "jaccard_3x": 0.673469387755102,
+      "frac_retained_3x": 0.673469387755102,
+      "n_chemicals_separated_10x": 77,
+      "jaccard_10x": 0.39285714285714285,
+      "frac_retained_10x": 0.39285714285714285
+    },
+    {
+      "family": "steroid hormone",
+      "n_chemicals_active": 270,
+      "n_chemicals_separated_1x": 183,
+      "jaccard_1x": 0.6777777777777778,
+      "frac_retained_1x": 0.6777777777777778,
+      "n_chemicals_separated_3x": 119,
+      "jaccard_3x": 0.44074074074074077,
+      "frac_retained_3x": 0.44074074074074077,
+      "n_chemicals_separated_10x": 74,
+      "jaccard_10x": 0.2740740740740741,
+      "frac_retained_10x": 0.2740740740740741
+    },
+    {
+      "family": "apoptosis",
+      "n_chemicals_active": 406,
+      "n_chemicals_separated_1x": 23,
+      "jaccard_1x": 0.05665024630541872,
+      "frac_retained_1x": 0.05665024630541872,
+      "n_chemicals_separated_3x": 14,
+      "jaccard_3x": 0.034482758620689655,
+      "frac_retained_3x": 0.034482758620689655,
+      "n_chemicals_separated_10x": 2,
+      "jaccard_10x": 0.0049261083743842365,
+      "frac_retained_10x": 0.0049261083743842365
+    }
+  ]
+}

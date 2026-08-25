@@ -1,0 +1,10 @@
+Assay format and mc6 flags, estimated-bound chemicals only
+
+Format:
+  cell_based: n_active=262,994, sep1x=17.9%, sep3x=7.9%, sep10x=3.9%
+  cell_free_biochemical: n_active=23,810, sep1x=41.2%, sep3x=21.2%, sep10x=10.4%
+
+mc6 severe-flag sensitivity:
+  1x: all 19.8% (n=286,804), no-severe 23.7% (n=150,556)
+  3x: all 9.0% (n=286,804), no-severe 10.7% (n=150,556)
+  10x: all 4.4% (n=286,804), no-severe 4.6% (n=150,556)

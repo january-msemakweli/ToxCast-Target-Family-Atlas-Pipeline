@@ -1,0 +1,18 @@
+Follow-ups restricted to estimated-bound chemicals (invitrodb v4.3)
+
+Family rank stability (actives vs cytotoxicity-separated, 1x):
+  families: 48
+  Spearman rho: 0.970 (p=6.81e-30)
+  Jaccard top10/top20: 0.667/0.818
+
+Family chemical label-set shift (Jaccard of active vs separated chemical sets):
+  cell cycle: n_active_chem=2894, J1x=0.526, J3x=0.268, J10x=0.149, retained1x=52.6%
+  nuclear receptor: n_active_chem=2713, J1x=0.630, J3x=0.418, J10x=0.257, retained1x=63.0%
+  cyp: n_active_chem=2609, J1x=0.588, J3x=0.389, J10x=0.222, retained1x=58.8%
+  cytokine: n_active_chem=792, J1x=0.799, J3x=0.472, J10x=0.347, retained1x=79.9%
+  gpcr: n_active_chem=1206, J1x=0.468, J3x=0.265, J10x=0.156, retained1x=46.8%
+  kinase: n_active_chem=533, J1x=0.403, J3x=0.220, J10x=0.144, retained1x=40.3%
+  protease: n_active_chem=743, J1x=0.592, J3x=0.277, J10x=0.155, retained1x=59.2%
+  neurodevelopment: n_active_chem=196, J1x=0.827, J3x=0.673, J10x=0.393, retained1x=82.7%
+  steroid hormone: n_active_chem=270, J1x=0.678, J3x=0.441, J10x=0.274, retained1x=67.8%
+  apoptosis: n_active_chem=406, J1x=0.057, J3x=0.034, J10x=0.005, retained1x=5.7%
