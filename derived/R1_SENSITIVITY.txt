@@ -1,0 +1,31 @@
+Reviewer R1 sensitivity analyses (invitrodb v4.3)
+
+Primary AC50 1x separation among estimated-bound actives: 19.8% (56,907 / 286,804).
+
+Burst-hit support of the published bound
+- Estimated-bound chemicals (n=2,894): median 13 positive burst assays (IQR 6-30; range 2-87).
+- Default-bound chemicals (n=7,593): 6,203 with 0 positives, 783 with 1, 607 with 2-4; none with 5 or more.
+- AC50 1x separation after restricting estimated-bound chemicals:
+  nhit >= 2: 19.8%
+  nhit >= 5: 19.8%
+  nhit >= 10: 19.6%
+  nhit >= 20: 19.9%
+
+Alternative potency metrics vs the published lower bound (1x)
+- Estimated-bound: AC50 19.8%, ACC 25.4%, AC20 38.9%, BMD 36.7%.
+- Default-bound: still near complete passage under every metric.
+
+Highest tested concentration across 338,630 active curves
+- 5th 25 uM, 25th 46.1 uM, median 76.6 uM, 75th 92.7 uM, 90th 115 uM, 95th 200 uM.
+- Share tested to 1000 uM: 0.017%.
+
+AC50 outside the tested concentration range
+- Estimated-bound: 1.6% of actives.
+- Default-bound: 4.7% of actives.
+
+Coverage-normalised promiscuity by assay depth (median fraction of tested families)
+- Estimated-bound, k=1/2/3 usable curves to count a family as tested:
+  active 0.53 / 0.63 / 0.75; separated 0.21 / 0.27 / 0.32.
+- Default-bound: active and separated remain essentially equal at each k.
+
+See tables T20-T24 and derived/R1_SENSITIVITY.json.

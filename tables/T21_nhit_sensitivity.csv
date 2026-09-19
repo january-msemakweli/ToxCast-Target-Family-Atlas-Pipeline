@@ -1,0 +1,9 @@
+subset,n_chemicals,n_active,n_separated_1x_ac50,pct_separated_1x_ac50
+"estimated-bound, nhit 2-4",316,5573,1140,20.455768885698905
+"estimated-bound, nhit 5-9",781,31427,6791,21.608807713112927
+"estimated-bound, nhit 10-19",736,55434,10286,18.55539921347909
+"estimated-bound, nhit 20+",1061,194370,38690,19.90533518547101
+"estimated-bound, nhit >= 2",2894,286804,56907,19.84177347596268
+"estimated-bound, nhit >= 5",2578,281231,55767,19.829606266734462
+"estimated-bound, nhit >= 10",1797,249804,48976,19.605770924404734
+"estimated-bound, nhit >= 20",1061,194370,38690,19.90533518547101

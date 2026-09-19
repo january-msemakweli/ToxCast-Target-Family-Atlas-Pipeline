@@ -22,6 +22,7 @@ python scripts/08_bound_provenance.py           # bound provenance, testability,
 python scripts/09_estimated_bound_followups.py  # rank stability and label-set shift, estimated-bound stratum
 python scripts/10_format_and_flags_estimated.py # format and flag analyses recomputed within stratum
 python scripts/11_figures_revised.py            # manuscript figures F1-F4
+python scripts/12_reviewer_r1_sensitivity.py    # nhit, ACC/AC20/BMD, conc_max, promiscuity depth
 ```
 
 Requires local invitrodb v4.3 extracts under `../ToxCast/derived/summary_extract/`:
@@ -30,15 +31,16 @@ Requires local invitrodb v4.3 extracts under `../ToxCast/derived/summary_extract
 - `assay_annotations_invitrodb_v4_3_AUG2024.xlsx`
 - `cytotox_invitrodb_v4_3_AUG2024.xlsx`
 
-Scripts 08-11 stream the multi-concentration summary in chunks, so a typical workstation is sufficient. Each streaming pass takes roughly one minute.
+Scripts 08-12 stream the multi-concentration summary in chunks, so a typical workstation is sufficient. Each streaming pass takes roughly one minute.
 
 ## Outputs
 
 - `tables/T1`-`T11` pooled family, chemical and sensitivity summaries
 - `tables/T12`-`T15` bound provenance, family tallies by provenance, window testability, coverage-normalised promiscuity
 - `tables/T16`-`T19` rank stability, label-set shift, format and flag analyses within the estimated-bound stratum
+- `tables/T20`-`T24` burst-hit support of the bound, alternative potency metrics, conc_max percentiles, and promiscuity by assay depth
 - `figures/F1_provenance`, `F2_family_retention`, `F3_promiscuity`, `F4_sensitivity` (png/pdf/eps/tif)
-- `derived/BOUND_PROVENANCE.{txt,json}`, `derived/ESTIMATED_BOUND_FOLLOWUPS.{txt,json}`, `derived/FORMAT_FLAGS_ESTIMATED.{txt,json}`
+- `derived/BOUND_PROVENANCE.{txt,json}`, `derived/ESTIMATED_BOUND_FOLLOWUPS.{txt,json}`, `derived/FORMAT_FLAGS_ESTIMATED.{txt,json}`, `derived/R1_SENSITIVITY.{txt,json}`
 - `manuscript/manuscript.tex` (elsarticle; *Computational Toxicology*)
 
 ## Definitions

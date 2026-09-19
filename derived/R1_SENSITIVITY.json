@@ -1,0 +1,279 @@
+{
+  "n_rows": 3517902,
+  "n_active": {
+    "estimated": 286804,
+    "default": 51826
+  },
+  "ac50_1x_pct_estimated": 19.84177347596268,
+  "t20": [
+    {
+      "bound_provenance": "estimated",
+      "n_chemicals": 2894,
+      "nhit_min": 2,
+      "nhit_max": 87,
+      "nhit_median": 13.0,
+      "nhit_p25": 6.0,
+      "nhit_p75": 30.0,
+      "n_nhit_0": 0,
+      "n_nhit_1": 0,
+      "n_nhit_2_to_4": 316,
+      "n_nhit_5_to_9": 781,
+      "n_nhit_10_to_19": 736,
+      "n_nhit_20plus": 1061,
+      "ntested_median": 70.0
+    },
+    {
+      "bound_provenance": "default",
+      "n_chemicals": 7593,
+      "nhit_min": 0,
+      "nhit_max": 4,
+      "nhit_median": 0.0,
+      "nhit_p25": 0.0,
+      "nhit_p75": 0.0,
+      "n_nhit_0": 6203,
+      "n_nhit_1": 783,
+      "n_nhit_2_to_4": 607,
+      "n_nhit_5_to_9": 0,
+      "n_nhit_10_to_19": 0,
+      "n_nhit_20plus": 0,
+      "ntested_median": 70.0
+    }
+  ],
+  "t21": [
+    {
+      "subset": "estimated-bound, nhit 2-4",
+      "n_chemicals": 316,
+      "n_active": 5573,
+      "n_separated_1x_ac50": 1140,
+      "pct_separated_1x_ac50": 20.455768885698905
+    },
+    {
+      "subset": "estimated-bound, nhit 5-9",
+      "n_chemicals": 781,
+      "n_active": 31427,
+      "n_separated_1x_ac50": 6791,
+      "pct_separated_1x_ac50": 21.608807713112927
+    },
+    {
+      "subset": "estimated-bound, nhit 10-19",
+      "n_chemicals": 736,
+      "n_active": 55434,
+      "n_separated_1x_ac50": 10286,
+      "pct_separated_1x_ac50": 18.55539921347909
+    },
+    {
+      "subset": "estimated-bound, nhit 20+",
+      "n_chemicals": 1061,
+      "n_active": 194370,
+      "n_separated_1x_ac50": 38690,
+      "pct_separated_1x_ac50": 19.90533518547101
+    },
+    {
+      "subset": "estimated-bound, nhit >= 2",
+      "n_chemicals": 2894,
+      "n_active": 286804,
+      "n_separated_1x_ac50": 56907,
+      "pct_separated_1x_ac50": 19.84177347596268
+    },
+    {
+      "subset": "estimated-bound, nhit >= 5",
+      "n_chemicals": 2578,
+      "n_active": 281231,
+      "n_separated_1x_ac50": 55767,
+      "pct_separated_1x_ac50": 19.829606266734462
+    },
+    {
+      "subset": "estimated-bound, nhit >= 10",
+      "n_chemicals": 1797,
+      "n_active": 249804,
+      "n_separated_1x_ac50": 48976,
+      "pct_separated_1x_ac50": 19.605770924404734
+    },
+    {
+      "subset": "estimated-bound, nhit >= 20",
+      "n_chemicals": 1061,
+      "n_active": 194370,
+      "n_separated_1x_ac50": 38690,
+      "pct_separated_1x_ac50": 19.90533518547101
+    }
+  ],
+  "t22": [
+    {
+      "potency_metric": "AC50",
+      "bound_provenance": "estimated",
+      "n_active": 286804,
+      "n_finite_metric": 286804,
+      "pct_actives_with_finite_metric": 100.0,
+      "n_separated_1x": 56907,
+      "pct_separated_of_actives": 19.84177347596268,
+      "pct_separated_of_finite": 19.84177347596268
+    },
+    {
+      "potency_metric": "AC50",
+      "bound_provenance": "default",
+      "n_active": 51826,
+      "n_finite_metric": 51826,
+      "pct_actives_with_finite_metric": 100.0,
+      "n_separated_1x": 51800,
+      "pct_separated_of_actives": 99.94983213059082,
+      "pct_separated_of_finite": 99.94983213059082
+    },
+    {
+      "potency_metric": "ACC",
+      "bound_provenance": "estimated",
+      "n_active": 286804,
+      "n_finite_metric": 285817,
+      "pct_actives_with_finite_metric": 99.6558625402714,
+      "n_separated_1x": 72956,
+      "pct_separated_of_actives": 25.43758106581498,
+      "pct_separated_of_finite": 25.52542361021213
+    },
+    {
+      "potency_metric": "ACC",
+      "bound_provenance": "default",
+      "n_active": 51826,
+      "n_finite_metric": 50803,
+      "pct_actives_with_finite_metric": 98.02608729209277,
+      "n_separated_1x": 50783,
+      "pct_separated_of_actives": 97.98749662331649,
+      "pct_separated_of_finite": 99.96063224612719
+    },
+    {
+      "potency_metric": "AC20",
+      "bound_provenance": "estimated",
+      "n_active": 286804,
+      "n_finite_metric": 286793,
+      "pct_actives_with_finite_metric": 99.99616462810839,
+      "n_separated_1x": 111487,
+      "pct_separated_of_actives": 38.87219146176483,
+      "pct_separated_of_finite": 38.87368241205329
+    },
+    {
+      "potency_metric": "AC20",
+      "bound_provenance": "default",
+      "n_active": 51826,
+      "n_finite_metric": 51822,
+      "pct_actives_with_finite_metric": 99.99228186624474,
+      "n_separated_1x": 51809,
+      "pct_separated_of_actives": 99.96719793154016,
+      "pct_separated_of_finite": 99.97491412913435
+    },
+    {
+      "potency_metric": "BMD",
+      "bound_provenance": "estimated",
+      "n_active": 286804,
+      "n_finite_metric": 278626,
+      "pct_actives_with_finite_metric": 97.14857533367736,
+      "n_separated_1x": 105380,
+      "pct_separated_of_actives": 36.7428627215799,
+      "pct_separated_of_finite": 37.8213088512917
+    },
+    {
+      "potency_metric": "BMD",
+      "bound_provenance": "default",
+      "n_active": 51826,
+      "n_finite_metric": 49209,
+      "pct_actives_with_finite_metric": 94.95041099062247,
+      "n_separated_1x": 48456,
+      "pct_separated_of_actives": 93.49747231119515,
+      "pct_separated_of_finite": 98.46979211119917
+    }
+  ],
+  "t23": [
+    {
+      "quantity": "highest tested concentration (uM), active curves",
+      "n": 338630,
+      "min": 0.025,
+      "p5": 25.0,
+      "p10": 38.3141762452107,
+      "p25": 46.0829493087558,
+      "p50": 76.6283524904215,
+      "p75": 92.6497695852535,
+      "p90": 114.942528735632,
+      "p95": 200.0,
+      "p99": 200.0,
+      "max": 1000000.0,
+      "pct_tested_to_1000uM": 0.016537223518294304
+    }
+  ],
+  "t24": [
+    {
+      "bound_provenance": "estimated",
+      "min_assays_to_count_family_tested": 1,
+      "n_chemicals": 2894,
+      "median_frac_tested_active": 0.5333333333333333,
+      "median_frac_tested_separated": 0.21428571428571427
+    },
+    {
+      "bound_provenance": "estimated",
+      "min_assays_to_count_family_tested": 2,
+      "n_chemicals": 2894,
+      "median_frac_tested_active": 0.625,
+      "median_frac_tested_separated": 0.2727272727272727
+    },
+    {
+      "bound_provenance": "estimated",
+      "min_assays_to_count_family_tested": 3,
+      "n_chemicals": 2894,
+      "median_frac_tested_active": 0.75,
+      "median_frac_tested_separated": 0.3224789915966387
+    },
+    {
+      "bound_provenance": "default",
+      "min_assays_to_count_family_tested": 1,
+      "n_chemicals": 5477,
+      "median_frac_tested_active": 0.2,
+      "median_frac_tested_separated": 0.2
+    },
+    {
+      "bound_provenance": "default",
+      "min_assays_to_count_family_tested": 2,
+      "n_chemicals": 5470,
+      "median_frac_tested_active": 0.21428571428571427,
+      "median_frac_tested_separated": 0.21428571428571427
+    },
+    {
+      "bound_provenance": "default",
+      "min_assays_to_count_family_tested": 3,
+      "n_chemicals": 5454,
+      "median_frac_tested_active": 0.26794871794871794,
+      "median_frac_tested_separated": 0.26666666666666666
+    }
+  ],
+  "ac50_outside_tested_range": {
+    "estimated": {
+      "n_finite": 286804,
+      "n_outside": 4663,
+      "pct_outside_of_finite": 1.6258490118687328
+    },
+    "default": {
+      "n_finite": 51826,
+      "n_outside": 2420,
+      "pct_outside_of_finite": 4.669470921931077
+    }
+  },
+  "assays_per_tested_family": {
+    "estimated_median_assays_per_tested_family": 5.0,
+    "estimated_p25_assays_per_tested_family": 2.0,
+    "estimated_p75_assays_per_tested_family": 24.0,
+    "estimated_pct_tested_families_with_1_assay": 18.97595144414842
+  },
+  "nhit_estimated": {
+    "min": 2,
+    "median": 13.0,
+    "p25": 6.0,
+    "p75": 30.0,
+    "max": 87,
+    "n_nhit_eq_2": 45,
+    "n_nhit_eq_3": 58,
+    "n_nhit_eq_4": 213
+  },
+  "nhit_default": {
+    "min": 0,
+    "median": 0.0,
+    "max": 4,
+    "n_nhit_0": 6203,
+    "n_nhit_1": 783,
+    "n_nhit_ge_2": 607
+  }
+}

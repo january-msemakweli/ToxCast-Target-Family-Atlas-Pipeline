@@ -56,7 +56,7 @@ def load_conc_sample(n: int = 200_000) -> np.ndarray:
 
 def fig1(t12: pd.DataFrame, t14: pd.DataFrame, conc: np.ndarray):
     apply_style()
-    fig, axes = plt.subplots(1, 3, figsize=(13.2, 4.2))
+    fig, axes = plt.subplots(1, 3, figsize=(13.2, 4.8))
 
     est = t12.loc[t12["bound_provenance"] == "estimated"].iloc[0]
     dfl = t12.loc[t12["bound_provenance"] == "default"].iloc[0]
@@ -82,7 +82,16 @@ def fig1(t12: pd.DataFrame, t14: pd.DataFrame, conc: np.ndarray):
     ax.set_xlabel("Required potency window below bound")
     ax.set_ylabel("% of actives cytotoxicity-separated")
     ax.set_ylim(0, 112)
-    ax.legend(frameon=False, fontsize=8, loc="center left")
+    ax.legend(
+        frameon=False,
+        fontsize=8,
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.28),
+        ncol=1,
+        handlelength=1.5,
+        labelspacing=0.22,
+        borderaxespad=0.0,
+    )
     for xi, v in zip(x - w / 2, e):
         ax.text(xi, v + 2.5, f"{v:.0f}", ha="center", fontsize=8)
     for xi, v in zip(x + w / 2, d):
@@ -129,7 +138,7 @@ def fig1(t12: pd.DataFrame, t14: pd.DataFrame, conc: np.ndarray):
     ax.set_ylim(0, ymax)
     for i, v in enumerate(vals):
         ax.text(i, v + ymax * 0.025, f"{v:.1f}%", ha="center", fontsize=8.5)
-    panel_label(ax, "C", "Comparisons that cannot be answered")
+    panel_label(ax, "C", "Bound or window outside the tested range")
 
     fig.tight_layout()
     save_fig(fig, "F1_provenance", FIG)

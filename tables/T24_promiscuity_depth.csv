@@ -1,0 +1,7 @@
+bound_provenance,min_assays_to_count_family_tested,n_chemicals,median_frac_tested_active,median_frac_tested_separated
+estimated,1,2894,0.5333333333333333,0.21428571428571427
+estimated,2,2894,0.625,0.2727272727272727
+estimated,3,2894,0.75,0.3224789915966387
+default,1,5477,0.2,0.2
+default,2,5470,0.21428571428571427,0.21428571428571427
+default,3,5454,0.26794871794871794,0.26666666666666666
